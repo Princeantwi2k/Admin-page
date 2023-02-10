@@ -6,7 +6,7 @@ body{
 .Navbar{
     display: flex;
     justify-content: space-between;
-    background-color: white;
+    background-color: rgb(214, 229, 235);
     height: 100px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
   }
@@ -70,7 +70,7 @@ body{
   }
   .content-page{
     display: flex;
-    background-color: rgb(214, 229, 235);
+    background-color: white ;
   }
   .side-bar{
     padding: 10px;
@@ -99,6 +99,7 @@ body{
     position: relative;
   display: flex;
   justify-content: space-evenly;
+  
   }
   .left-side{
     width: 50%;
