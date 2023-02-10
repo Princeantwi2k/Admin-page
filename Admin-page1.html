@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./page1.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="Navbar">
+        <img src="public/unnamed-11@2x.png" alt="" class="logo">
+        <input type="text" placeholder="What are you looking for?" class="searchbox"> <i class="bi bi-search search-icon"></i>
+        <ul class="Navbar-ul">
+          <li class="nav-item dropdown nav-dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-person-circle"></i> Admin
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"> <img src="public/profileuser.svg" alt="" class="nav-image"> Account</a></li>
+              <li><a class="dropdown-item" href="#"><img src="public/account-balance-wallet-fill0-wght400-grad0-opsz48.svg" alt="" class="nav-image"> Pay in</a></li>
+              <li><a class="dropdown-item" href="#"><img src="public/payment-black-24dp.svg" alt="" class="nav-image"> Cash out</a></li>
+              <li><a class="dropdown-item" href="#"><img src="public/group-402.svg" alt="" class="nav-image"> Notifications</a></li>
+              <li><a class="dropdown-item" href="#"><img src="public/favorite-fill0-wght400-grad0-opsz48.svg" alt="" class="nav-image"> Saved items</a></li>
+             
+              <li><a class="dropdown-item link" href="#" >Log out</a></li>
+            </ul> 
+          </li>
+       
+        </ul>
+      </nav>
+  
+      <div class="content-page">
+        <div class="side-bar">
+          <ul>
+            <li>
+             <a href="./Admin-page1.html"><img src="public/dashboard.svg" alt="" class="side-bar-image"></a> 
+            </li>
+            <li>
+           <a href="./Product-category.html" ><img src="public/category_FILL0_wght400_GRAD0_opsz48.png" alt="" class="side-bar-image"></a>  
+            </li>
+            <li>
+              <img src="public/transaction (1).png" alt="" class="side-bar-image">
+            </li>
+            <li>
+              <img src="public/vPzC1x.tif.png" class="side-bar-image">
+            </li>
+            <li>
+              <img src="public/local_shipping_FILL0_wght400_GRAD0_opsz48.png" alt="" class="side-bar-image">
+            </li>
+            <li>
+              <img src="public/e64rqmtif.svg" alt="" class="side-bar-image">
+            </li>
+          </ul>
+        </div>
+        <div class="side-bar-iterms">
+         <ul>
+           <a href="./Dashboah.html"><li>Dashboard</li></a> 
+            <li>Ongoing Auctions</li>
+            <li>Closed Auctions</li>
+            <li>Disputes </li>
+            <li>transactions</li>
+         </ul>
+        </div>
+    <div class="main-page">
+         <h4>Dashboard</h4>
+         <div class="main-page-cards">
+            <div class="cards">
+                <i class="bi bi-house-add"></i>
+                <h6>Welcome Admin</h6>
+                <p>Get familiar the dashboad,here are some <br/> ways to het stated</p>
+                <h6>Get started</h6>
+               
+            </div>
+            <div class="card">
+                <i class="bi bi-arrow-clockwise"></i>
+                <h6>Reseet password</h6>
+                <p>Need to reset password? No problem! just click <br/> the button below and you'ill be on your way.</p>
+                <button class="button"   data-toggle="modal" data-target="#staticBackdrop"> click to reset</button>
+            </div>
+            <div class="card1">
+                <i class="bi bi-clock-history"></i>
+                <h6>API Management</h6>
+               
+                <p> DESCRIPTION <br />Very long description for an API key <br/> DESCRIPTION</p>
+                <div class="description">
+                    <input type="text" class="input"> <img src="" alt="">
+                </div>
+               
+                <h6>Manage access key</h6>
+            </div>
+            <div class="card2">
+                <i class="bi bi-arrow-clockwise"></i> 
+                <h6>Manage item categories</h6>
+                <p>Click on the button below to start adding item categories <br/> ways to het stated</p>
+                <button class="button1"> + Add categories</button>
+            </div>
+           
+         </div>
+    </div>
+
+<!-- Modal -->
+   <!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-centered">
+      <div class="modal-content">
+       
+            
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          
+        <div class="modal-body">
+            <h6>Reset password</h6>
+            <p>Need to reset password? No problem! just click <br/> the button below and you'ill be on your way.</p>
+        <input type="text" placeholder="Enter email" class="modal-input">
+        </div>
+            <button class="button1"> Click to reset</button>
+
+      </div>
+    </div>
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

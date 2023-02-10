@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.main-page{
+    background-color: rgb(194, 215, 238);
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+.left-side{
+    width: 50%;
+    display: inline-block;
+}
+.logo{
+    position: absolute;
+    top: -60px;
+    left: 90px;
+    width: 250px;
+    height: 250px;
+}
+.main-page-image{
+    width: 550px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    height: 500px;
+    object-fit: cover;
+}
+.left-content{
+    position: relative;
+}
+.left-content-info{
+    position: absolute;
+    top: 505px;
+    left: 180px;
+    color: #314d4d;
+}
+
+.right-side{
+    width: 50%;
+    position: relative;
+}
+.form {
+    background-color: rgb(245, 239, 239);
+    position: absolute;
+    top: 90px;
+    right: 80px;
+    width: 360px;
+    height: 400px;
+    padding: 20px;
+    border-radius:10px ;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);
+    color: #314d4d;
+}
+.form:hover{
+    border: 1px solid #314d4d;
+}
+
+
+input{
+    width: 310px;
+    padding: 5px;
+    height: 30px;
+    margin-top: 4px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.forget-password{
+    margin-left: 190px;
+    color: red;
+}
+button{
+    width: 300px;
+    padding: 10px;
+    height: 50px;
+    background-color: #314d4d;
+   
+    border: none;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+label{
+    color: #314d4d;
+}
+.link{
+    color: white !important;
+    text-decoration: none !important;
+}
